@@ -32,6 +32,7 @@ Use case:
 import os
 import cv2
 import time
+import argparse
 
 def ConvertAndCrop(cropMargin, testPercent):
     global CROP_MARGIN
@@ -237,5 +238,3 @@ def splitTrainAndTestData(folder, file):
     f.close()
     test.close()
     train.close()
-
-#ConvertAndCrop()
