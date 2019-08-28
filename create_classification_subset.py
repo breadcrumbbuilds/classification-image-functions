@@ -1,5 +1,9 @@
 """
 Created by: brad.crump 
+
+Used to create a subset of classes for a classification problem.
+Writes a map file that balances instances of classes in a 
+classification context.
 """
 
 
